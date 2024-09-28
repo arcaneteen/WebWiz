@@ -1,0 +1,50 @@
+body{
+    background-color:#25263a;
+    font-size: 24px;;
+    color:#fff;
+    
+}
+h1{
+    text-align:center;
+    background-color: rgb(12, 122, 76);
+   
+}
+label{
+    margin:0 auto;
+    color:white;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.codeArea{
+    display:flex;
+    justify-content:space-around;
+}
+.editors{
+    width:100%;
+    
+}
+textarea{
+    width:96%;
+    min-height:200px;
+    color:#fff;
+    font-size: x-large;
+    resize: none;
+    background-color: black;
+    border-style:none solid none;
+    border-radius:12px;
+    padding:4px 6px;
+    overflow:visible;
+}
+iframe{
+    width:100%;
+    background-color: white;
+    border-style:none solid none;
+    border-radius:12px;
+    min-height:220px;
+    
+}
+marquee{
+    margin:12px 0;
+    padding:6px 0;
+    background-color: black;
+}
