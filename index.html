@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="platform for Writing code with 3 simple web technologies">
+    <meta name="keywords" content="HTML, CSS, JavaScript,CodeEditor">
+    <meta name="author" content="Khushi">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web👩‍💻Wiz-Wisdom in web dev</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/979af2deaa.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1> Web👩‍💻Wiz</h1>
+    <div class="codeArea">
+        <div class="editors">
+           <label>
+            <i class="fa-brands fa-html5"></i> HTML
+           </label>
+            <textarea id="html" spellcheck="false" placeholder="HTML" onkeyup="run()"></textarea>
+        </div>
+        <div class="editors">
+            <label>
+                <i class="fa-brands fa-css3-alt"></i> CSS
+               </label>
+            <textarea id="css" spellcheck="false" placeholder="CSS" onkeyup="run()"></textarea>
+        </div>
+        <div class="editors">
+            <label>
+                <i class="fa-brands fa-js"></i> JavaScript
+               </label>
+            <textarea id="js" spellcheck="false" placeholder="JavaScript" onkeyup="run()"></textarea>
+        </div></div>
+    <div class="output">
+        <label>
+            <i class="fa-solid fa-play"></i> Output
+        </label>
+       <iframe id="result" title="Showing Output"></iframe>
+    </div>
+    <footer>
+        <marquee direction="left">E-mail: 
+            &nbsp;khushikeshri012@gmail.com</marquee>
+    </footer>
+    <script src="script.js" type="text/JavaScript"></script>
+</body>
+</html>
